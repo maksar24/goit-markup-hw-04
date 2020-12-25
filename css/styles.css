@@ -6,6 +6,7 @@
   --another-color: rgba(255, 255, 255, 0.6);
   --secondary-bg-color: #f5f4fa;
   --another-bg-color: #2f303a;
+  --hero-bg-color: #c4c4c4;
 
   --primary-font-size: 14px;
   --special-font-weight: 500;
@@ -159,6 +160,23 @@ a {
 
 /*Герой*/
 .hero {
+  text-align: center;
+
+  max-width: 1600px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/hero.jpg);
+  background-size: cover;
+  background-position: center;
+  background-color: var(--hero-bg-color);
+
   padding-top: 200px;
   padding-bottom: 200px;
 }
@@ -173,11 +191,6 @@ a {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-}
-
-.hero {
-  text-align: center;
-  background-color: var(--another-bg-color);
 }
 
 .button {
