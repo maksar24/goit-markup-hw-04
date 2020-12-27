@@ -355,7 +355,7 @@ a {
 }
 
 /*Футер*/
-.footer-relation {
+.footer .container {
   padding-top: 60px;
   padding-bottom: 60px;
 }
@@ -403,12 +403,12 @@ a {
 }
 
 .footer-social {
-  padding-top: 72px;
-  padding-bottom: 100px;
+  padding-top: 12px;
 }
 
 .footer .social-links {
   display: flex;
+  margin-bottom: 0px;
 }
 
 .footer .title {
