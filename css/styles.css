@@ -396,14 +396,11 @@ a {
 
 .footer .container {
   display: flex;
+  align-items: baseline;
 }
 
 .footer-relation {
   margin-right: 70px;
-}
-
-.footer-social {
-  padding-top: 12px;
 }
 
 .footer .social-links {
