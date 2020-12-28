@@ -154,15 +154,16 @@ a {
 
 .contacts-top {
   display: inline-flex;
+  text-align: center;
   padding-top: 32px;
   padding-bottom: 32px;
 
   color: var(--text-color);
+  fill: currentColor;
 }
 
 .icon-nav {
   margin-right: 10px;
-  fill: currentColor;
 }
 
 /*Герой*/
@@ -187,6 +188,12 @@ a {
   padding-top: 200px;
   padding-bottom: 200px;
 }
+
+.hero-container {
+  width: 696px;
+  margin: auto;
+}
+
 .hero-title {
   margin-bottom: 30px;
 
@@ -242,9 +249,11 @@ a {
 }
 
 .icon-bg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 120px;
   width: 270px;
-  padding: 25px 100px;
   margin-bottom: 30px;
 
   background-color: var(--secondary-bg-color);
@@ -287,8 +296,7 @@ a {
 }
 
 .details {
-  padding-top: 30px;
-  padding-bottom: 16px;
+  padding: 30px 32px;
 }
 
 .team-name {
@@ -298,11 +306,14 @@ a {
   font-size: 16px;
 }
 
+.team .text {
+  margin-bottom: 16px;
+}
+
 .list.social-links {
   justify-content: space-between;
   margin-right: auto;
   margin-left: auto;
-  margin-bottom: 30px;
   width: 206px;
 }
 
@@ -315,16 +326,13 @@ a {
   border-radius: 50%;
 
   color: var(--link-color);
+  fill: currentColor;
 }
 
 .social-link:focus,
 .social-link:hover {
   background-color: var(--accent-color);
   color: var(--primary-white-color);
-}
-
-.icon-link {
-  fill: currentColor;
 }
 
 /* Клиенты */
@@ -346,6 +354,7 @@ a {
   border-radius: 4px;
 
   color: var(--link-color);
+  fill: currentColor;
 }
 
 .customer-link:focus,
@@ -355,12 +364,10 @@ a {
 }
 
 /*Футер*/
-.footer .container {
+.footer {
   padding-top: 60px;
   padding-bottom: 60px;
-}
 
-.footer {
   background-color: var(--another-bg-color);
 }
 
@@ -414,6 +421,7 @@ a {
   color: var(--primary-white-color);
 
   font-size: inherit;
+  font-weight: 700;
   line-height: 1.14;
   text-transform: uppercase;
 }
