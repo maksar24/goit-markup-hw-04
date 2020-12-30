@@ -227,6 +227,12 @@ a {
   letter-spacing: 0.06em;
 }
 
+.button:hover,
+.button:focus {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+
 /*Секция достоинства*/
 .advantage .container {
   display: flex;
